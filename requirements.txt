@@ -1,0 +1,5 @@
+# EKL Agent dependencies
+# Requires Python >=3.10 (3.13 recommended, <3.14)
+
+# Google AI Studio — the only external dependency
+google-generativeai>=0.8.0

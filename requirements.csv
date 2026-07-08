@@ -1,0 +1,5 @@
+ID,Description,Priority,Acceptance Criteria,Dependency
+REQ-001,"Configure Business Logic for VPMReference objects to automatically set the VversionComment attribute to 'Test Value'. Upon user edit, enforce a minimum character limit of 20.","Medium","1. Business Logic must trigger to set VversionComment to 'Test Value' by default.
+When a user edits the attribute, a validation rule (e.g., PLMAttributesValuationCheck) must be triggered.
+The rule must evaluate the input length using the String.Length() function.
+If the input is less than 20 characters, the script must stop execution and prompt the user with an error using the Message or Notify keyword","Data Setup application Access; VPMReference object schema availability"
