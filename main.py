@@ -22,13 +22,18 @@ def parse_args():
     parser.add_argument("--csv",  required=True, help="Path to the requirements CSV")
     parser.add_argument(
         "--commit-message",
-        default="feat: apply EKL requirements via agent",
+        default="feat: apply EKL requirements",
         help="Git commit message",
     )
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Preview changes without writing files or committing",
+        help="Preview changes without writing files or committing to git",
+    )
+    parser.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Enable verbose logging output",
     )
     return parser.parse_args()
 
