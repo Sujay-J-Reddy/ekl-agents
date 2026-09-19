@@ -31,8 +31,8 @@ def parse_args():
         help="Preview changes without writing files or committing to git",
     )
     parser.add_argument(
-        "--verbose",
-        action="store_true",
+        "--delete",
+        action="false",
         help="Enable verbose logging output",
     )
     return parser.parse_args()
