@@ -26,7 +26,7 @@ def parse_args():
         help="Git commit message",
     )
     parser.add_argument(
-        "--dry-run-blah",
+        "--dry-run-blah-blah",
         action="store_true",
         help="Preview changes without writing files or committing to git",
     )
