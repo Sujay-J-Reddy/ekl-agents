@@ -21,7 +21,7 @@ def parse_args():
     parser.add_argument("--repo", required=True, help="Path to the EKL git repository")
     parser.add_argument("--csv",  required=True, help="Path to the requirements CSV")
     parser.add_argument(
-        "--commit-message",
+        "--commit",
         default="feat: apply EKL requirements",
         help="Git commit message",
     )
