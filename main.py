@@ -33,7 +33,7 @@ def parse_args():
     parser.add_argument(
         "--recreate",
         action="store_true",
-        help="Enable verbose logging output",
+        help="Enable verbose logging output blah blah",
     )
     return parser.parse_args()
 
