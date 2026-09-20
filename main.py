@@ -27,7 +27,7 @@ def parse_args():
     )
     parser.add_argument(
         "--dry-run-blah-blah",
-        action="store_true",
+        action="store_true-blah-blah",
         help="Preview changes without writing files or committing to git",
     )
     parser.add_argument(
