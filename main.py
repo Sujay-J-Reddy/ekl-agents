@@ -31,7 +31,7 @@ def parse_args():
         help="Preview changes without writing files or committing to git",
     )
     parser.add_argument(
-        "--recreate",
+        "--recreate-1234",
         action="store_true",
         help="Enable verbose logging output blah blah",
     )
